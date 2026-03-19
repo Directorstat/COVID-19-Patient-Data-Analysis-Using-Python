@@ -1,7 +1,3 @@
-COVID-19 Patient Data Analysis Using Python
-
-Project Overview
-
 # COVID-19 Patient Data Analysis Using Python
 
 ## Project Overview
@@ -66,9 +62,7 @@ New variables were extracted: Year, Month and Day
 
 Duplicate rows were detected and removed to ensure dataset accuracy.
 
-Result
-
-Duplicate rows after cleaning: 0
+Result: Duplicate rows after cleaning: 0
 
 ## Outlier Detection
 
@@ -94,6 +88,8 @@ Boxplots were used to visualise the distributions before and after outlier remov
 
 Distribution analysis was conducted for numeric variables using histograms and density curves.
 
+<img width="1694" height="740" alt="download (3)" src="https://github.com/user-attachments/assets/f64d28de-883d-4d5c-9414-d97b95289326" />
+
 Key observations
 
 NEW_Cases and NEW_DEATHS show roughly symmetrical distributions
@@ -105,6 +101,8 @@ The day variable reflects data across days 1 to 30
 ### Country Distribution
 
 A frequency bar chart was used to show the representation of countries in the dataset.
+<img width="892" height="547" alt="image" src="https://github.com/user-attachments/assets/8617d09a-5d3f-4d4d-8872-e327239f3361" />
+
 
 Key finding
 
@@ -116,33 +114,33 @@ Argentina and Australia have fewer observations.
 
 The standard deviation of vaccination levels was calculated by country.
 
+<img width="892" height="547" alt="image" src="https://github.com/user-attachments/assets/cc1d4a86-9fbc-4354-9ba1-81c5db9030fc" />
+
 Bar charts show variation in vaccination distribution across regions.
 
 ## Correlation Analysis
 
 ### Cases and Vaccination
 
-Scatter plot and correlation analysis show weak or no correlation between
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/a7ad0a96-9118-4aa0-b86a-8c36170d0b99" />
 
-NEW_Cases and vaccinated
+Scatter plot and correlation analysis show weak or no correlation between NEW_Cases and vaccinated.
 
 ### Deaths and Vaccination
 
-The scatter plot indicates little relationship between
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/0230495f-233b-4563-8466-f96bba3f0caa" />
 
-NEW_DEATHS and vaccinated
+The scatter plot indicates little relationship between NEW_DEATHS and vaccinated
 
 ### Cases and Deaths
 
-A strong positive correlation exists between
+<img width="562" height="454" alt="image" src="https://github.com/user-attachments/assets/767c44fa-0460-44b1-9806-983023669f6b" />
 
-NEW_Cases and NEW_DEATHS
+A strong positive correlation exists between NEW_Cases and NEW_DEATHS
 
-Interpretation
+Interpretation: As infection numbers increase, death counts also increase.
 
-As infection numbers increase, death counts also increase.
-
-## Visualization Techniques Used
+## Visualisation Techniques Used
 
 Several statistical visualizations were applied.
 
@@ -159,10 +157,15 @@ Scatter plots with regression lines
 Analyze relationships between health indicators.
 
 Heatmap
-Visualize correlation between numerical variables.
+<img width="706" height="528" alt="image" src="https://github.com/user-attachments/assets/b0aa7083-63dc-49e3-89d3-7d224f3fec4e" />
+
+Visualize correlation between numerical variables. None of the numerical variables are correlated with vaccination
 
 Line plot
-Show daily vaccination trends.
+
+<img width="571" height="455" alt="image" src="https://github.com/user-attachments/assets/a914d1e8-4ffe-4200-9a38-44d9a0b83526" />
+
+Show daily vaccination trends. The distribution of the vaccine is stationary across the day in 2024.
 
 ## Key Insights
 
